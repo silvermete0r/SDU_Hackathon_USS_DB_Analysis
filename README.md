@@ -26,9 +26,20 @@
 ### №1. Задача:  
 > Постройте USS структуру для анализа продаж и определения самых популярных продуктов в разных магазинах. Включите таблицы для фактов продаж и измерений продуктов, магазинов и времени.
 
-> **Решение:** [store_db[DB Creation].sql](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/store_db%5BDB%20Creation%5D.sql) + [data_engineering - preprocessing](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/data_engineering.ipynb) + [data_fill_csv_sql](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/fill_data_from_csv.sql)
+> **Решение задачи:** [Task-1-Solution](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/task-1.sql)
+
+> **Screenshot:**
+
+[![task-1][task-1]](#)
+
+> **Решение для настройки базы данных:** [store_db[DB Creation].sql](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/store_db%5BDB%20Creation%5D.sql) + [data_engineering - preprocessing](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/data_engineering.ipynb) + [data_fill_csv_sql](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/fill_data_from_csv.sql)
+
+> **Схема:**
+
+[![scheme-1][scheme-1]](#)
 
 > **ERD-Схема:**
+
 [![erd-scheme-1][erd-scheme-1]](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/store_db%5BDB%20Creation%5D.sql)
 
 &nbsp;
@@ -40,57 +51,15 @@
 ### №2. Задача:  
 > Создайте USS структуру для анализа активности клиентов и определения их предпочтений в разных магазинах. Включите таблицы для фактов заказов и измерений клиентов, магазинов и времени.
 
-> **Решение:** 
+> **Решение:** [Task-2-Solution](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/task-2.sql)
 
-**Фактовая таблица "Заказы" (Orders_Fact):**
+> **Screenshots:** 
 
-* order_id (Ключ заказа)
-* date_id (Внешний ключ для измерения "Время")
-* customer_id (Внешний ключ для измерения "Клиенты")
-* product_id (Внешний ключ для измерения "Товары")
-* store_id (Внешний ключ для измерения "Магазины")
-* order_amount (Сумма заказа)
-  
-**Измерение "Время" (Time_Dimension):**
+[![task-2-1][task-2-1]](#)
+[![task-2-2][task-2-2]](#)
+[![task-2-3][task-2-3]](#)
+[![task-2-4][task-2-4]](#)
 
-* date_id (Ключ времени)
-* purchase_date (Дата заказа)
-* purchase_year (Год заказа)
-* purchase_quarter (Квартал заказа)
-* purchase_month (Месяц заказа)
-
-**Измерение "Клиенты" (Customers_Dimension):**
-
-* customer_id (Ключ клиента)
-* name (Имя клиента)
-* email (Email клиента)
-* phone (Телефон клиента)
-* address (Адрес клиента)
-  
-**Измерение "Магазины" (Stores_Dimension):**
-
-* store_id (Ключ магазина)
-* city (Город магазина)
-* address (Адрес магазина)
-
-**Измерение "Товары" (Products_Dimension):**
-
-* product_id (Ключ товара)
-* product_name (Наименование товара)
-* category (Категория товара)
-* price (Цена товара)
-* quantity_in_stock (Количество товара в наличии)
-* supplier_id (Внешний ключ для измерения "Поставщики")
-
-**Измерение "Поставщики" (Suppliers_Dimension):**
-
-* supplier_id (Ключ поставщика)
-* supplier_name (Наименование поставщика)
-* supplier_contact (Контактное лицо поставщика)
-
-> **Схема:**
-
-[![scheme-1][scheme-1]](#)
 
 &nbsp;
 ## 3) Как USS таблицы могут быть использованы для оптимизации выполнения сложных аналитических запросов?
@@ -110,9 +79,11 @@
 ### №3. Задача:  
 > Постройте USS структуру для анализа эффективности маркетинговых акций в различных магазинах. Включите таблицы для фактов заказов и измерений магазинов, продуктов, клиентов и времени.
 
-> **Решение:** [Название файла](#)
+> **Решение:** [Task-3-Solution](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/task-3.sql)
 
-> **Схема:**
+> **Screenshot:**
+
+[![task-3][task-3]](#)
 
 &nbsp;
 ## 4) Какие инструменты или программное обеспечение можно использовать для работы с USS структурами и выполнения аналитических запросов?
@@ -130,9 +101,15 @@
 ### №4. Задача:  
 > Создайте USS структуру для анализа покупательского поведения и предсказания спроса на определенные продукты в разных магазинах. Включите таблицы для фактов заказов и измерений продуктов, клиентов, магазинов и времени.
 
-> **Решение:** [Название файла](#)
+> **Решение:** [Task-4-Solution](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/task-4.sql)
 
 > **Схема:**
+
+[![task-4-1][task-4-1]](#)
+[![task-4-2][task-4-2]](#)
+[![task-4-3][task-4-3]](#)
+[![task-4-4][task-4-4]](#)
+[![task-4-5][task-4-5]](#)
 
 &nbsp;
 ## 5) Какую роль играют факты и измерения в USS структуре, и как это помогает анализировать данные?
@@ -206,3 +183,14 @@
 [horizontal-scaling-img]: https://sun9-17.userapi.com/impg/88-jfZWTT2hAjrD4OPfcygjwMfh97LwcHCg43A/ZVA25wS3qL4.jpg?size=730x450&quality=95&sign=6b20c3b9671e1849ceae8c9d3ac961d9&type=album
 [erd-scheme-1]: https://sun9-13.userapi.com/impg/oLIoAYzU8NK8idLSr1ZMwL4aPqkoZjyqe9MlMg/31_yb0WtQJE.jpg?size=1173x904&quality=95&sign=5df4eae61e795f9df13522ac21335c3e&type=album
 [scheme-1]: https://sun9-47.userapi.com/impg/UldG5sIY0DON0JKTF2V4-sjhTpm83oH2_xVoTQ/3Tbd4tO-jGk.jpg?size=2103x1069&quality=95&sign=4721f44be9f789bacadaee0f1e805c6c&type=album
+[task-1]: https://sun9-17.userapi.com/impg/-kb7ep5eJ5BkZfud6pzK9xUKHJ16HlM_PrmsVA/G6NkHfMw44w.jpg?size=892x1074&quality=95&sign=95009bb9ab0c4331dd11b7cb665d3ec3&type=album
+[task-2-1]: https://sun9-34.userapi.com/impg/FamhJlPvfdB5q4coHWnlUUCODs4SsSbamvSf-g/OjrnDqwXOj4.jpg?size=826x1123&quality=95&sign=89bff26a705d531923423d9b5d94fe42&type=album
+[task-2-2]: https://sun9-17.userapi.com/impg/-kb7ep5eJ5BkZfud6pzK9xUKHJ16HlM_PrmsVA/G6NkHfMw44w.jpg?size=892x1074&quality=95&sign=95009bb9ab0c4331dd11b7cb665d3ec3&type=album
+[task-2-3]: https://sun9-14.userapi.com/impg/nyf-XO4IFaN93PSI7CBud0twT6HLg4AsBPI8hg/gQf3JO5FlP4.jpg?size=796x703&quality=95&sign=2828ba0c76b4a1fd04ad242c0c69d4cf&type=album
+[task-2-4]: https://sun9-61.userapi.com/impg/PZNTIqMtWz3DvTR2UWFt-EaJts7PBvXYvanNZg/1LcMypHAaTA.jpg?size=826x1122&quality=95&sign=c1a38a5f3a305bd520b04d6c55a8de0d&type=album
+[task-3]: https://sun9-34.userapi.com/impg/B276Xx688GjICt8plTJeDuvEkm-vvZ2L5FSjCQ/Fmg0IZUvLWg.jpg?size=1035x826&quality=95&sign=420adef23ecfc8970558c0c68f0b17c7&type=album
+[task-4-1]: https://sun9-57.userapi.com/impg/nM8TOVW-hWGpqFXyeVnahoih8BuTiRJ6BkbtiQ/IE4rR5e0tmI.jpg?size=637x370&quality=95&sign=c7f2fd69f8120dbdd49052cf6b434ac1&type=album
+[task-4-2]: https://sun9-69.userapi.com/impg/_qHiNY8P5yF1oQvf6Z_gEjvHD68yaBGaHDJm0A/qKtvIWcIfuI.jpg?size=579x757&quality=95&sign=aa6df93faa6eeddafa7f2f79eec4b920&type=album
+[task-4-3]: https://sun9-64.userapi.com/impg/kY149kNTgsI5lPtgijLICf2o3QjWlqpv2hX5Jw/9BwL8F8fHjU.jpg?size=957x406&quality=95&sign=ac7e0335bd21938759b975a48ce700f2&type=album
+[task-4-4]: https://sun9-44.userapi.com/impg/4FiMQm33w_ng28zvM8yfCbY_VWyeHJBjPGhB4Q/wzgzS259dkY.jpg?size=597x603&quality=95&sign=68f64d948bc2921145249b8eb90f2411&type=album
+[task-4-5]: https://sun9-68.userapi.com/impg/NCEyktOz0kKg9HqXam2bVamN04aoHjBTcSUkWg/H4SVCDtA63g.jpg?size=1132x477&quality=95&sign=14ffb75b85b0b84371ff7f8b940b171a&type=album
