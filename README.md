@@ -28,6 +28,8 @@
 
 > **Решение:** [store_db[DB Creation].sql](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/store_db%5BDB%20Creation%5D.sql)
 
+> [data_engineering - preprocessing](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/data_engineering.ipynb) + [data_fill_csv_sql](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/fill_data_from_csv.sql)
+
 > **ERD-Схема:**
 [![erd-scheme-1][erd-scheme-1]](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/store_db%5BDB%20Creation%5D.sql)
 
