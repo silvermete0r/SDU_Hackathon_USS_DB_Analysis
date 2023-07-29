@@ -18,8 +18,8 @@ CREATE TABLE SUPPLIERS (
 CREATE TABLE DATES (
     PurchaseDate DATE PRIMARY KEY,
     PurchaseYear INTEGER,
-    PurchaseQuarter INTEGER,
-    PurchaseMonth INTEGER
+    PurchaseQuarter VARCHAR,
+    PurchaseMonth VARCHAR
 );
 
 -- 4) Создаем таблицу продуктов с отсылкой на поставщика --
