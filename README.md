@@ -26,7 +26,7 @@
 ### №1. Задача:  
 > Постройте USS структуру для анализа продаж и определения самых популярных продуктов в разных магазинах. Включите таблицы для фактов продаж и измерений продуктов, магазинов и времени.
 
-> **Решение:** [store_db[DB Creation].sql](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/store_db%5BDB%20Creation%5D.sql) [data_engineering - preprocessing](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/data_engineering.ipynb) + [data_fill_csv_sql](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/fill_data_from_csv.sql)
+> **Решение:** [store_db[DB Creation].sql](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/store_db%5BDB%20Creation%5D.sql) + [data_engineering - preprocessing](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/data_engineering.ipynb) + [data_fill_csv_sql](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/fill_data_from_csv.sql)
 
 > **ERD-Схема:**
 [![erd-scheme-1][erd-scheme-1]](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/store_db%5BDB%20Creation%5D.sql)
@@ -40,9 +40,57 @@
 ### №2. Задача:  
 > Создайте USS структуру для анализа активности клиентов и определения их предпочтений в разных магазинах. Включите таблицы для фактов заказов и измерений клиентов, магазинов и времени.
 
-> **Решение:** [Название файла](#)
+> **Решение:** 
+
+**Фактовая таблица "Заказы" (Orders_Fact):**
+
+* order_id (Ключ заказа)
+* date_id (Внешний ключ для измерения "Время")
+* customer_id (Внешний ключ для измерения "Клиенты")
+* product_id (Внешний ключ для измерения "Товары")
+* store_id (Внешний ключ для измерения "Магазины")
+* order_amount (Сумма заказа)
+  
+**Измерение "Время" (Time_Dimension):**
+
+* date_id (Ключ времени)
+* purchase_date (Дата заказа)
+* purchase_year (Год заказа)
+* purchase_quarter (Квартал заказа)
+* purchase_month (Месяц заказа)
+
+**Измерение "Клиенты" (Customers_Dimension):**
+
+* customer_id (Ключ клиента)
+* name (Имя клиента)
+* email (Email клиента)
+* phone (Телефон клиента)
+* address (Адрес клиента)
+  
+**Измерение "Магазины" (Stores_Dimension):**
+
+* store_id (Ключ магазина)
+* city (Город магазина)
+* address (Адрес магазина)
+
+**Измерение "Товары" (Products_Dimension):**
+
+* product_id (Ключ товара)
+* product_name (Наименование товара)
+* category (Категория товара)
+* price (Цена товара)
+* quantity_in_stock (Количество товара в наличии)
+* supplier_id (Внешний ключ для измерения "Поставщики")
+
+**Измерение "Поставщики" (Suppliers_Dimension):**
+
+* supplier_id (Ключ поставщика)
+* supplier_name (Наименование поставщика)
+* supplier_contact (Контактное лицо поставщика)
 
 > **Схема:**
+
+[![scheme-1][scheme-1]](#)
 
 &nbsp;
 ## 3) Как USS таблицы могут быть использованы для оптимизации выполнения сложных аналитических запросов?
@@ -157,3 +205,4 @@
 [uss-scheme-img-2]: https://sun9-25.userapi.com/impg/AZD9Y725oy4AQvIoQqG7RfOzjHqB2eftjLL2Uw/EH1Lm6j0So4.jpg?size=2230x676&quality=95&sign=71aba4e9ff2e43d1020885da0c309fa6&type=album
 [horizontal-scaling-img]: https://sun9-17.userapi.com/impg/88-jfZWTT2hAjrD4OPfcygjwMfh97LwcHCg43A/ZVA25wS3qL4.jpg?size=730x450&quality=95&sign=6b20c3b9671e1849ceae8c9d3ac961d9&type=album
 [erd-scheme-1]: https://sun9-13.userapi.com/impg/oLIoAYzU8NK8idLSr1ZMwL4aPqkoZjyqe9MlMg/31_yb0WtQJE.jpg?size=1173x904&quality=95&sign=5df4eae61e795f9df13522ac21335c3e&type=album
+[scheme-1]: https://sun9-47.userapi.com/impg/UldG5sIY0DON0JKTF2V4-sjhTpm83oH2_xVoTQ/3Tbd4tO-jGk.jpg?size=2103x1069&quality=95&sign=4721f44be9f789bacadaee0f1e805c6c&type=album
