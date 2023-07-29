@@ -1,9 +1,9 @@
 # SDU Hackathon: Unified Star Scheme (USS) [Analysis]
 🛠️ **Tools:** PostgreSQL (DBMS), Python (Data Engineering)
 
-💽 **Dataset:** [dataset.kz](https://drive.google.com/drive/folders/1cbaVDf9eqNxXsfupbcrtGQPE85Rz9fo0?usp=sharing)
+💽 **Dataset:** [dataset-open](https://drive.google.com/drive/folders/1cbaVDf9eqNxXsfupbcrtGQPE85Rz9fo0?usp=sharing)
 
-💬 **Data Description:** [datadescription.kz](https://docs.google.com/document/d/1nLlaICvW7AmZk-3JrbCOaqr4hkBBxyzM8kw4X0wWjo8/edit?pli=1)
+💬 **Data Description:** [datadescription-open](https://docs.google.com/document/d/1nLlaICvW7AmZk-3JrbCOaqr4hkBBxyzM8kw4X0wWjo8/edit?pli=1)
 
 [![uss-scheme-img-1][uss-scheme-img-1]](https://www.amazon.co.uk/Unified-Star-Schema-Resilient-Warehouse/dp/163462887X)
 
