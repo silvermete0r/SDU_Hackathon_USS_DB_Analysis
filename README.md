@@ -1,4 +1,10 @@
 # SDU Hackathon: Unified Star Scheme (USS) [Analysis]
+🛠️ **Tools:** PostgreSQL (DBMS), Python (Data Engineering)
+
+💽 **Dataset:** [dataset.kz](https://drive.google.com/drive/folders/1cbaVDf9eqNxXsfupbcrtGQPE85Rz9fo0?usp=sharing)
+
+💬 **Data Description:** [datadescription.kz](https://docs.google.com/document/d/1nLlaICvW7AmZk-3JrbCOaqr4hkBBxyzM8kw4X0wWjo8/edit?pli=1)
+
 [![uss-scheme-img-1][uss-scheme-img-1]](https://www.amazon.co.uk/Unified-Star-Schema-Resilient-Warehouse/dp/163462887X)
 
 ## 1) Что такое USS и в чем заключается его основное преимущество по сравнению с традиционными звездной и снежинкой схемами?
@@ -20,9 +26,10 @@
 ### №1. Задача:  
 > Постройте USS структуру для анализа продаж и определения самых популярных продуктов в разных магазинах. Включите таблицы для фактов продаж и измерений продуктов, магазинов и времени.
 
-> **Решение:** [Название файла](#)
+> **Решение:** [store_db[DB Creation].sql](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/store_db%5BDB%20Creation%5D.sql)
 
-> **Схема:**
+> **ERD-Схема:**
+[![erd-scheme-1][erd-scheme-1]](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/store_db%5BDB%20Creation%5D.sql)
 
 &nbsp;
 ## 2) Какой подход к моделированию связей сущностей в USS структуре может использоваться для обеспечения гибкости и простоты масштабирования?
@@ -149,3 +156,4 @@
 [uss-scheme-img-1]: https://sun9-74.userapi.com/impg/ee5yviOtIWMcImmtLju2Mh7UVk1xT9QDXQHHLg/bQli4lonCZM.jpg?size=2172x688&quality=95&sign=554cf4675dd11f518229e5b34e2b0b3a&type=album
 [uss-scheme-img-2]: https://sun9-25.userapi.com/impg/AZD9Y725oy4AQvIoQqG7RfOzjHqB2eftjLL2Uw/EH1Lm6j0So4.jpg?size=2230x676&quality=95&sign=71aba4e9ff2e43d1020885da0c309fa6&type=album
 [horizontal-scaling-img]: https://sun9-17.userapi.com/impg/88-jfZWTT2hAjrD4OPfcygjwMfh97LwcHCg43A/ZVA25wS3qL4.jpg?size=730x450&quality=95&sign=6b20c3b9671e1849ceae8c9d3ac961d9&type=album
+[erd-scheme-1]: https://sun9-13.userapi.com/impg/oLIoAYzU8NK8idLSr1ZMwL4aPqkoZjyqe9MlMg/31_yb0WtQJE.jpg?size=1173x904&quality=95&sign=5df4eae61e795f9df13522ac21335c3e&type=album
