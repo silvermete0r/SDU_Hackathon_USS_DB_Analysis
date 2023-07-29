@@ -88,7 +88,7 @@
 &nbsp;
 ## 4) Какие инструменты или программное обеспечение можно использовать для работы с USS структурами и выполнения аналитических запросов?
 
-🐘 [**PostgreSQL:**](https://www.postgresql.org/) Мощная система управления базами данных (СУБД) с поддержкой звездных схем и унифицированных ключей.
+🐘 [**PostgreSQL:**](https://www.postgresql.org/) Мощная система управления базами данных (СУБД) с поддержкой звездных схем и унифицированных ключей (Использовалось на практике для решение данного кейса "Моделирование данных").
 
 📊 [**Microsoft Power BI:**](https://powerbi.microsoft.com/) Еще один мощный инструмент для визуализации данных и работы с USS структурами.
 
@@ -103,7 +103,7 @@
 
 > **Решение:** [Task-4-Solution](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/task-4.sql)
 
-> **Схема:**
+> **Screenshots:**
 
 [![task-4-1][task-4-1]](#)
 [![task-4-2][task-4-2]](#)
@@ -118,9 +118,11 @@
 ### №5. Задача:  
 > Напишите SQL запрос для получения общего количества продаж за каждый месяц в указанном периоде.
 
-> **Решение:** [Название файла](#)
+> **Решение:** [Task-5-Solution](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/task-5.sql)
 
-> **Схема:**
+> **Screenshot:**
+
+ [![task-5][task-5]](#)
 
 &nbsp;
 ## 6) Как можно масштабировать USS структуру для обработки больших объемов данных и поддержания производительности?
@@ -131,23 +133,29 @@
 ### №6. Задача:  
 > Напишите SQL запрос для получения самых популярных продуктов по количеству заказов.
 
-> **Решение:** [Название файла](#)
+> **Решение:** [Task-6-Solution](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/task-6.sql)
 
-> **Схема:**
+> **Screenshot:**
+
+[![task-6][task-6]](#)
 
 ### №7. Задача:  
 > Напишите SQL запрос для получения среднего чека заказов в каждом магазине.
 
-> **Решение:** [Название файла](#)
+> **Решение:** [Task-7-Solution](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/task-7.sql)
 
-> **Схема:**
+> **Screenshot:**
+
+[![task-7][task-7]](#)
 
 ### №8. Задача:  
 > Выясните топ-5 продуктов с наибольшим объемом продаж за последние три месяца и определите, какие клиенты совершили эти покупки.
 
-> **Решение:** [Название файла](#)
+> **Решение:** [Task-8-Solution](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/task-8.sql)
 
-> **Схема:**
+> **Screenshot:**
+
+[![task-8][task-8]](#)
 
 &nbsp;
 <!-- LICENSE -->
@@ -194,3 +202,7 @@
 [task-4-3]: https://sun9-64.userapi.com/impg/kY149kNTgsI5lPtgijLICf2o3QjWlqpv2hX5Jw/9BwL8F8fHjU.jpg?size=957x406&quality=95&sign=ac7e0335bd21938759b975a48ce700f2&type=album
 [task-4-4]: https://sun9-44.userapi.com/impg/4FiMQm33w_ng28zvM8yfCbY_VWyeHJBjPGhB4Q/wzgzS259dkY.jpg?size=597x603&quality=95&sign=68f64d948bc2921145249b8eb90f2411&type=album
 [task-4-5]: https://sun9-68.userapi.com/impg/NCEyktOz0kKg9HqXam2bVamN04aoHjBTcSUkWg/H4SVCDtA63g.jpg?size=1132x477&quality=95&sign=14ffb75b85b0b84371ff7f8b940b171a&type=album
+[task-5]: https://sun9-73.userapi.com/impg/giK4YSiJfmoZs8fio1nsGVOv6hzcMcS8qlWSXg/o58UjI2aV_s.jpg?size=811x589&quality=95&sign=e7932fea3fb92f7f09396953e22d178c&type=album
+[task-6]: https://sun9-61.userapi.com/impg/gQbM5NPP-_kr64nnpQR-sOWygvvtGe-VaU9VXQ/0iSTpPjkuBM.jpg?size=559x1138&quality=95&sign=175eb26711b2e21da8f233c825b5b8f5&type=album
+[task-7]: https://sun9-40.userapi.com/impg/IryJCf-H31qkOVKZZeHKdXZRXtPSveC56fsMXg/2vdMw72MJBk.jpg?size=751x738&quality=95&sign=138ac135c7f8dfaf55120ec318d494bb&type=album
+[task-8]: https://sun9-58.userapi.com/impg/Htp4x9HO1SDZnoEcCKac1bmYKk9rI-SkiSHT7Q/tqKcc63Vqfc.jpg?size=1155x1138&quality=95&sign=18930b8b72bd65fb803cb9f03f94eae8&type=album
