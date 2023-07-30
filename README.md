@@ -157,6 +157,31 @@
 
 [![task-8][task-8]](#)
 
+## 🔎 Анализ таблицы заказов [ML/DS]: Визуализация общих данных и построение модели машинного обучения для предсказания продаж
+> **Решение [source code]:** [Orders-Analysis-DS-ML](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/orders_analysis_sdu_hackathon.ipynb)
+
+> **ML Model(Для предсказания примерного количества продаж):** [forecast-model.pkl](https://github.com/silvermete0r/SDU_Hackathon_USS_DB_Analysis/blob/main/best_model.pkl)
+
+> **Общее количество продаж по месяцам:**
+
+[![stats-1][stats-1]](#)
+
+> **Сегментация клиентов и количества покупок:**
+
+[![stats-2][stats-2]](#)
+
+> **Анализ продуктов:**
+
+[![stats-3][stats-3]](#)
+
+> **Анализ магазинов:**
+
+[![stats-4][stats-4]](#)
+
+> **Сезоннный анализ продаж:**
+
+[![stats-5][stats-5]](#)
+
 &nbsp;
 <!-- LICENSE -->
 ## License
@@ -206,3 +231,8 @@
 [task-6]: https://sun9-61.userapi.com/impg/gQbM5NPP-_kr64nnpQR-sOWygvvtGe-VaU9VXQ/0iSTpPjkuBM.jpg?size=559x1138&quality=95&sign=175eb26711b2e21da8f233c825b5b8f5&type=album
 [task-7]: https://sun9-40.userapi.com/impg/IryJCf-H31qkOVKZZeHKdXZRXtPSveC56fsMXg/2vdMw72MJBk.jpg?size=751x738&quality=95&sign=138ac135c7f8dfaf55120ec318d494bb&type=album
 [task-8]: https://sun9-58.userapi.com/impg/Htp4x9HO1SDZnoEcCKac1bmYKk9rI-SkiSHT7Q/tqKcc63Vqfc.jpg?size=1155x1138&quality=95&sign=18930b8b72bd65fb803cb9f03f94eae8&type=album
+[stats-1]: https://sun9-22.userapi.com/impg/bbSWPKLIbKuoB9S0VwIUiBxvknDFwpklMuLwpg/5q1zm9kfedE.jpg?size=850x563&quality=95&sign=72838c952db9371cb42f9264ae956787&type=album
+[stats-2]: https://sun9-54.userapi.com/impg/W9jzNcwraBlh1ozcTRJzWTlBuzHlDncue9LW2w/I0CYppya_rM.jpg?size=841x547&quality=95&sign=d90674d24cb6848c22298aec1dfaf490&type=album
+[stats-3]: https://sun9-79.userapi.com/impg/W6VRHCY-nhgK_SGc4xPjS4y2PjjsH4XrC-h9yA/9MRwvxK1IC8.jpg?size=850x551&quality=95&sign=f6f65377b3a8016d9e349ee07729f956&type=album
+[stats-4]: https://sun9-73.userapi.com/impg/NB9MkUib10tQi-HdT4H7-UWoN3dOmtFvwkUnog/tSr1jGiGMNg.jpg?size=859x542&quality=95&sign=4ed1c49107321d3ee396fb34359de09a&type=album
+[stats-5]: https://sun9-54.userapi.com/impg/SMHWK_eO9w64QxO2pzVfZ0ZTHreRYwEr-CKmSg/v1mmHGcten0.jpg?size=850x547&quality=95&sign=9468747f467fe6204e7d7299a77c7c9c&type=album
